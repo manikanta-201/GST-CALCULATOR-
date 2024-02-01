@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVESECTION -->
+    <nav class="navbar">
+        <div class="logo">
+            <h3>MANI RESTURANT</h3>
+        </div>
+        <i class="fas fa-bars toggle"></i>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <div class="serchbox">
+                    <input type="search" placeholder="search">
+                    <button>search</button>
+                </div>
+            </ul>
+        </div>
+
+        <!-- <div class="burger">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div> -->
+
+
+
+    </nav>
+    <!-- hero section -->
+
+    <div class="container">
+        <div class="hero">
+
+            <div class="hero1">
+                <h1>ABOUT</h1>
+                <p>A restaurant is a business that prepares and serves food and drinks to customers.[1] Meals are
+                    generally served and eaten on the premises, but many restaurants also offer take-out and food
+                    delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of
+                    cuisines and service models ranging from inexpensive fast-food restaurants and cafeterias to
+                    mid-priced family restaurants, to high-priced luxury establishments.</p>
+            </div>
+            <div class="hero2">
+                <img src="./ASSETS/images/pexels-waldemar-2290070.jpg" alt="" width="200px">
+            </div>
+        </div>
+    </div>
+
+    <!-- galery -->
+
+
+    <div class="photo">
+        <h1> photos</h1>
+    </div>
+    <marquee behavior="" direction="">
+        <div class="photos">
+
+            <img src="./ASSETS/images/pexels-edward-eyer-1049626.jpg" alt="">
+            <img src="./ASSETS/images/pexels-enesfi̇lm-8295013.jpg" alt="">
+            <img src="./ASSETS/images/pexels-gül-işık-2452054.jpg" alt="">
+            <img src="./ASSETS/images/pexels-key-notez-2365529.jpg" alt="">
+            <img src="./ASSETS/images/pexels-jonathan-borba-2878739.jpg" alt="">
+            <img src="./ASSETS/images/pexels-rene-asmussen-334985.jpg" alt="">
+            <img src="./ASSETS/images/pexels-shvets-anna-2574474.jpg" alt="">
+            <img src="./ASSETS/images/pexels-edward-eyer-1049626.jpg" alt="">
+            <img src="./ASSETS/images/pexels-enesfi̇lm-8295013.jpg" alt="">
+            <img src="./ASSETS/images/pexels-gül-işık-2452054.jpg" alt="">
+            <img src="./ASSETS/images/pexels-key-notez-2365529.jpg" alt="">
+            <img src="./ASSETS/images/pexels-william-choquette-2641886.jpg" alt="">
+            <img src="./ASSETS/images/pexels-waldemar-2290070.jpg" alt="">
+            <img src="./ASSETS/images/pexels-william-choquette-2641886.jpg" alt="">
+            <img src="./ASSETS/images/pexels-william-choquette-2641886.jpg" alt="">
+            <img src="./ASSETS/images/pexels-yelena-odintsova-15638789.jpg" alt="">
+
+        </div>
+    </marquee>
+    <!-- form section -->
+
+
+    <div class="form">
+
+        <div class="form1">
+            <h4>person details</h4>
+
+            <div class="card">
+                <label for="">Name</label>
+                <input type="text" placeholder="Name" id="uname">
+            </div>
+            <div class="card">
+                <label for="">Email</label>
+                <input type="email" placeholder="enter your email" id="email">
+            </div>
+            <div class="card">
+                <label for="">Mobile</label>
+                <input type="tel" placeholder="enter your phone numeber" id="mobileno" value="">
+            </div>
+            <div class="card">
+                <label for="">Place</label>
+                <input type="text" placeholder="curent location" id="place" value="">
+            </div>
+
+            <h4>menu</h4>
+
+            <div class="card">
+                <label for="">veg-Biryani</label>
+                <input type=" text" placeholder="enter price" id="veg-Biryani" value="">
+            </div>
+            <div class="card">
+                <label for="">Non-veg-Biryani</label>
+                <input type=" text" placeholder="enter price" id="Non-veg-Biryani" value="">
+            </div>
+            <div class="card">
+                <label for="">Mandhi</label>
+                <input type=" text" placeholder="enter price" id="mandhi" value="">
+            </div>
+            <div class="card">
+                <label for="">White-Rice</label>
+                <input type=" text" placeholder="enter price" id="white-Rice" value="">
+            </div>
+            <div class="card">
+                <label for="">GST</label>
+                <input type=" text" placeholder="enter price" id="gst" value="">
+            </div>
+            <div class="button">
+                <button onclick="butnsub()"> Payment</button>
+            </div>
+
+        </div>
+
+        <div id="outputbox">
+            <p id="result"></p>
+        </div>
+
+    </div>
+
+
+
+    <script src="./app.js">
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
